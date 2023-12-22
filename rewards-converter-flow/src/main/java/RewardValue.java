@@ -10,12 +10,12 @@ public class RewardValue {
     }
 
 
-    public RewardValue(double milesValue, boolean isMiles) {
-        if (isMiles) {
+    public RewardValue(int milesValue) {
+
             this.milesValue = milesValue;
 
             this.cashValue = milesValue * 0.0035;
-        }
+
     }
 
 
